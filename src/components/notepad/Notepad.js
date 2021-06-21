@@ -1,9 +1,10 @@
 import React from 'react';
+import './Notepad.css';
 
 const Notepad = () => {
     return (
         <div>
-            <input type="textArea"></input>
+            <textarea className="notepad" rows={35} />
         </div>
     )
 }
